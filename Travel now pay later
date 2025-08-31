@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TNPL Travel</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <div class="logo">🌍 TNPL TRAVEL</div>
+    <nav>
+      <a href="#destinations">Destinations</a>
+      <a href="#how-it-works">How It Works</a>
+      <a href="#plan" class="btn">Plan My Trip</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>TRAVEL NOW, PAY LATER</h1>
+    <p>Book today. Pay in flexible monthly installments.</p>
+    <a href="#destinations" class="btn-large">Start Your Journey</a>
+  </section>
+
+  <!-- How It Works -->
+  <section id="how-it-works" class="steps">
+    <h2>How It Works</h2>
+    <div class="step-container">
+      <div class="step">
+        <span>1</span>
+        <p>Pick your destination</p>
+      </div>
+      <div class="step">
+        <span>2</span>
+        <p>Choose a payment plan</p>
+      </div>
+      <div class="step">
+        <span>3</span>
+        <p>Pack your bags & go!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Popular Deals -->
+  <section id="destinations" class="deals">
+    <h2>Popular Deals</h2>
+    <div class="deal-cards">
+      <div class="card">
+        <img src="paris.jpg" alt="Paris">
+        <h3>Paris</h3>
+        <p>From $65/month</p>
+        <a href="#" class="btn">Book Now</a>
+      </div>
+      <div class="card">
+        <img src="newyork.jpg" alt="New York">
+        <h3>New York</h3>
+        <p>From $85/month</p>
+        <a href="#" class="btn">Book Now</a>
+      </div>
+      <div class="card">
+        <img src="bali.jpg" alt="Bali">
+        <h3>Bali</h3>
+        <p>From $65/month</p>
+        <a href="#" class="btn">Book Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 TNPL Travel. All rights reserved.</p>
+  </footer>
+</body>
+</html>
